@@ -1,0 +1,105 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stoper Ekranı"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"/>
+
+        <!-- Vardiya Seç Butonu -->
+        <Button
+            android:id="@+id/btnSelectShift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vardiya Seç"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_background"/>
+
+        <!-- Markup Seç Butonu -->
+        <Button
+            android:id="@+id/btnSelectMarkup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Markup Seç"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_background"/>
+
+        <!-- Kantarcı Seç Butonu -->
+        <Button
+            android:id="@+id/btnSelectWeigher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kantarcı Seç"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_background"/>
+
+        <!-- Cevher Seç Butonu -->
+        <Button
+            android:id="@+id/btnSelectOre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cevher Seç"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_background"/>
+
+        <!-- Üretime Başla Butonu -->
+        <Button
+            android:id="@+id/btnStartProduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Üretime Başla"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_background"/>
+
+        <!-- Üretimi Bitir Butonu -->
+        <Button
+            android:id="@+id/btnStopProduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Üretimi Bitir"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_background"/>
+
+        <!-- Kamyon Numarası Giriş Alanı -->
+        <EditText
+            android:id="@+id/etTruckNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kamyon Numarası Girin"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Kamyon Gönder Butonu -->
+        <Button
+            android:id="@+id/btnSendTruck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gönder"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background"/>
+
+        <!-- Raporları Görüntüle Butonu -->
+        <Button
+            android:id="@+id/btnViewReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raporları Görüntüle"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

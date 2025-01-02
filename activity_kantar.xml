@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Kantar Paneli"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#DADADA" />
+
+        <!-- Rapor Görüntüle Butonları -->
+        <Button
+            android:id="@+id/btnReportView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#800000"
+            android:text="Raporları Görüntüle"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+
+        <!-- Ara Stok ve Mobil Kırıcı Butonları -->
+        <Button
+            android:id="@+id/btnRim4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#BEBEBE"
+            android:text="ARA STOK RİM-4 GÖNDERİM"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnRim6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#BEBEBE"
+            android:text="ARA STOK RİM-6 GÖNDERİM"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnMobileCrusher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#BEBEBE"
+            android:text="MOBİL KİRİCİ"
+            android:textColor="#000000" />
+
+        <!-- Kamyon Numarası ve Gönderim -->
+        <EditText
+            android:id="@+id/etTruckNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kamyon Numarası Girin"
+            android:inputType="number"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginBottom="8dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA" />
+
+        <Button
+            android:id="@+id/btnSendTruck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gönder"
+            android:backgroundTint="#008000"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Kutucuklar -->
+        <TextView
+            android:id="@+id/tvBox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BEBEBE"
+            android:text="BOŞ KUTUCUK"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#0000FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BEBEBE"
+            android:text="BOŞ KUTUCUK"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#0000FF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BEBEBE"
+            android:text="BOŞ KUTUCUK"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#0000FF"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+</ScrollView>
